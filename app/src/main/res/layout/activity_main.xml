@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.project1.MainActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:gravity="left"
+        android:orientation="horizontal">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="120"
+            />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="87dp">
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/aaaa"
+            app:srcCompat="@android:color/background_light" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/aaaa"
+            app:srcCompat="@android:color/background_light" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/aaaa"
+            app:srcCompat="@android:color/background_light" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/aaaa"
+            app:srcCompat="@android:color/background_light" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/aaaa"
+            app:srcCompat="@android:color/background_light" />
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:srcCompat="@android:color/background_light"
+            android:src="@drawable/aaaa"/>
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:srcCompat="@android:color/background_light"
+            android:src="@drawable/aaaa"/>
+
+        <ImageButton
+            android:id="@+id/imageButton8"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:srcCompat="@android:color/background_light"
+            android:src="@drawable/aaaa"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/imageButton9"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/aaaa"
+            app:srcCompat="@android:color/background_light" />
+
+        <ImageButton
+            android:id="@+id/imageButton10"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/aaaa"
+            app:srcCompat="@android:color/background_light" />
+
+        <ImageButton
+            android:id="@+id/imageButton11"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/aaaa"
+            app:srcCompat="@android:color/background_light" />
+
+        <ImageButton
+            android:id="@+id/imageButton12"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/aaaa"
+            app:srcCompat="@android:color/background_light" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/imageButton13"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/aaaa"
+            app:srcCompat="@android:color/background_light" />
+
+        <ImageButton
+            android:id="@+id/imageButton14"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:srcCompat="@android:color/background_light"
+            android:src="@drawable/aaaa"/>
+
+        <ImageButton
+            android:id="@+id/imageButton15"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:srcCompat="@android:color/background_light"
+            android:src="@drawable/aaaa"/>
+
+        <ImageButton
+            android:id="@+id/imageButton16"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:srcCompat="@android:color/background_light"
+            android:src="@drawable/aaaa"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.13">
+
+        <Chronometer
+            android:id="@+id/chronometer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_centerInParent = "true"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:format = "경과시간 %s"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
